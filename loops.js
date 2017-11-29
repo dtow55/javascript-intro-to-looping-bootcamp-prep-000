@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 function maybeTrue() {
   return Math.random() >= 0.5;
 }
 
+=======
+>>>>>>> 11160d1a0a265e46fb13980a30b53307aeb52ce3
 function forLoop(array) {
   for (var i = 0; i < 25; i++) {
     if (i === 1) {
@@ -11,6 +14,7 @@ function forLoop(array) {
       array.push(`I am ${i} strange loops.`);
     }
   }
+<<<<<<< HEAD
   return array;
 }
 
@@ -26,4 +30,6 @@ function doWhileLoop(array) {
     array.shift();
   } while (array.length > 0 && maybeTrue());
   return array;
+=======
+>>>>>>> 11160d1a0a265e46fb13980a30b53307aeb52ce3
 }
